@@ -29,7 +29,7 @@ Code Structure of 1st run (Sec.2.2)
 * m1_systemTagsBasedLocationRecognition.py: Applies the method of the 1st run
 
 === Libraries ===
-* geoUtils.py: Contains many methods to work with coordinates, serialization of data, etc.
+* geoUtils.py: Various methods (coordinates manipulations, serialization of data, etc.)
 * objects/FlickrMediaData.py
 * objects/ResCandidates.py
 * objects/TagInfoClusters.py
