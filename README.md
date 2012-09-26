@@ -15,9 +15,22 @@ We present two different tag-based techniques. Both first pre-select a geographi
 Code Structure of 1st run (Sec.2.2)
 ===============================
 
-* Pre-Processing:
+=== Pre-Processing ===
+* all_convertFlickrDataIntoTxtFormat.py: Converts from Flickr image data to our input structured file
+* all_convertVideoXmlIntoTxtFormat.py: Converts from Flickr video XML to our input structured file
+* all_computeUsersCommonestPlace.py: Computes users location based on their previous uploads
+* all_computeSocialUsersCommonestPlace.py: Computes users location based on their social connections
+* all_computePriorProbability.py: Computes the prior-location which is the medoid of all the coordinates in Ttrain.
 
-Code about the technique:
+=== Code about the technique ===
+* m1_convertDatasetsIntoDBformat.py: Creates an index of the input file in order to improve the speed
+* m1_filteringStopwordListFromDataset_NewMtags.py: Filters tags present in the stop-words list
+* m1_filteringTrainingSetWithGeoSpreading.py: Filters tags based on the geo-spreading
+* m1_systemTagsBasedLocationRecognition.py: Applies the method of the 1st run
 
-Libraries:
-
+=== Libraries ===
+* geoUtils.py: Contains many methods to work with coordinates, serialization of data, etc.
+* objects/FlickrMediaData.py
+* objects/ResCandidates.py
+* objects/TagInfoClusters.py
+* objects/TagInfoCoordinates.py
