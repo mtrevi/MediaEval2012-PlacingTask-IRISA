@@ -5,7 +5,7 @@ The task requires participants to automatically assign latitude and longitude co
 
 Official Website: http://www.multimediaeval.org/mediaeval2012/placing2012/index.html
 
-Originally, the code was not prepared to be shared, we are sorry if something is not clear or well explained. 
+Originally, the code was not prepared to be shared, we are sorry if something is unclear or bad explained. 
 
 Our Contribution
 ===============================
