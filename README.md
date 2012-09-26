@@ -15,8 +15,7 @@ We present two different tag-based techniques. Both first pre-select a geographi
 Code Structure of 1st run (Sec.2.2)
 ===============================
 
-Pre-Processing:
-=====
+* Pre-Processing:
 
 Code about the technique:
 
